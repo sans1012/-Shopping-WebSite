@@ -1,0 +1,25 @@
+body{ 
+    position:relative;
+    right:-60px;
+    bottom:50%;
+    margin : 150px;
+    border:2px solid black;
+    background-image: url(https://img.freepik.com/free-photo/girl-holds-fashion-shopping-bag-beauty_1150-13673.jpg?size=626&ext=jpg);
+    }
+h2{
+   font-size:xx-large;
+  font-family: cursive;
+  text-align: center;
+}
+#login{
+  padding:90px;
+  background-color: palevioletred;
+  text-align: justify;
+  
+}
+#button{
+    position:relative;
+    display:inline;
+    right:-120px;
+    
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="signup.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href ="signup.css">
+    <link rel="stylesheet" type="text/css" href ="navigation pane.css">
+    <script>
+      function myFunction() {
+         if (window.confirm("Would you like to go to home page !!")) {
+           window.location.href = "mainpage.html";
+          }
+        }
+     </script>
+</head>
+<body style="background-color: aquamarine;">
+        <div class="topnav">
+        <a href="mainpage.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="todays_offer_men.html">Today's deal for Men</a>
+        <a href="todays_offer_women.html">Today's deal for Women</a>
+        <a href="cart.html">Cart</a>
+        
+      </div>
+
+    <h1>Compras.in</h1>
+    <div id="style">
+    <form class="form">
+        <div id="signup">Sign Up
+            <hr  height="10px" color="black"/>
+        </div>
+
+        <label for="name">First Name</label>
+            <input type="text" id="name" placeholder= "Maaya" required>
+            <br/><br/><br/>
+
+            <label for="name">Last Name</label>
+            <input type="text" id="name">
+            <br/><br/><br/>
+
+            <label for="number">Phone Number </label>
+            <input type="number" id="number " placeholder="xxxxxxxxxx" required >
+            <br/><br/><br/>
+
+            <label for="email" >E-Mail Address </label>
+            <input type="email" id="email" placeholder="abc@email.com" required>
+            <br> <br/> <br>            
+            <label for="password" > Password</label>
+            <input type="password" id="password" required >
+            <br><br/><br/>
+            <label for="password" > Confirm Password</label>
+            <input type="password" id="password" required >
+            <br><br/>
+            <label for="checkbox"><input type="checkbox" required >I hereby agree to all the terms and conditions.</label>
+            <br/><br/>
+            <button type="sign up" onclick="myFunction()">sign up</button>    
+
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+.dropbtn {
+  background-color:white;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  right:-112px;
+  bottom:-6px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.logo{
+  display:inline;
+  position:relative;
+  top:-40px;
+  right:-160px;
+  color:white;
+}
+.logo:hover{
+  display:inline;
+  font-size: 16px;
+  border: none;
+  cursor: pointer
+}
+.search{
+  display:inline;
+  position:relative;
+  top:-80px;
+  right:-330px;
+}
+.signin{
+  display:inline;
+  position:relative;
+  top:-120px;
+  right:-570px;
+  color:white;
+}
+.link{
+  display: inline;
+  color:white;
+  text-decoration: none;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.orders{
+  display:inline;
+  position:relative;
+  top:-170px;
+  right:-720px;
+  color:white;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.collect{
+
+  display:inline;
+  position:relative;
+  top:-225px;
+  right:-900px;
+  color:white;
+}
+#disable{
+  overflow-x: hidden;
+}
+.color{
+  background-image:url("fashion.jpg");
+  background-position: 3ex;
+  background-repeat: no-repeat;
+
+}
+.container{
+  width:100%;
+  margin-top:10%;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+}
+.container h2{
+  background:#0062cc;
+  color:#fff;
+  width:200px;
+  font-size: 24px;
+  padding:5px;
+  height:40px;
+}
+.container h2::after{
+  content: '';
+  border-top: 40px solid #0062cc;
+  border-right: 40px solid transparent;
+  position:relative;
+  left:48px;
+  top:34px;
+}
+.row{
+  margin-top:30px;
+}
+.product-bottom .fa{
+  color:#28a745;
+  font-size:10px;
+}
+.product-bottom h4{
+  font-size:20px;
+  font-weight: bold;
+
+}
+.product-bottom h5{
+  font-size:15px;
+  padding-bottom: 10px;
+}
+.overlay{
+  display:block;
+  opacity:0;
+  position:absolute;
+  top:10%;
+  margin-left:0;
+  width:70px;
+}
+.product-top:hover .overlay{
+  opacity:1;
+  margin-left: 5%;
+  transition:0.5s;
+}
+.overlay.fa{
+  cursor: pointer;
+  background-color: #555;
+  color:#000;
+  height:35px;
+  width:35px;
+  font-size:20px;
+  padding:7px;
+  margin:5%;
+  margin-bottom: 5%;
+}
+.ovarlay .btn-secondary{
+  background:transparent !important;
+  border:none !important;
+  box-shadow: none !important;
+}
+
+
+#aboutus{
+  margin:30px 20px 20px 20px;
+  padding:20px 50px 20px 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color:darkred;
+ 
+  border:2px solid black;
+  
+}
+#head{
+  font-size: 26px;
+}
+#head a{
+  text-decoration: none;
+  
+}
+#contact{
+  font-style: oblique;
+  font-size: 18px;
+  padding: 40px;
+  background-color: #000000;
+  color:whitesmoke;
+}
+.product-top{
+  padding: 50px;
+}
+#flow{
+  overflow-x:hidden;
+}
+#l{
+  position: relative;
+  right:-700px;
+  top:-250px
+
+}
+.carousel.inner>.item>img{
+  width:"80%";
+  margin:auto;
+  
+}
+.text
+{ display: inline;
+  color:purple;
+  font-size: x-large;
+  text-decoration: underline;
+  font-family: cursive;
+  font-weight: bold;
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>compras</title> 
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="mainpage.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href ="logo.ico.jpg">
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="mainpage.js"></script>
+    </head>
+    <body id="disable">
+        <div class="color">
+        <div class="dropdown">
+            <button  onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">Home</a>
+              <a href="#order">Your Order</a>
+              today's Deal
+              <ul>
+                  <a href ="todays_offer_men.html" target="blank">Deals for mens</a>
+                  <a href ="todays_offer_women.html" target="blank">Deals for womens</a> 
+              </ul>
+              <a href="#aboutus">About</a>
+              <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="logo">
+            <span>
+            <h2>Compras<span>.in</span></h2>
+            </span>
+        </div>
+        <form>
+        <div class="search">
+            <label for="search"></label>
+            <input type="text" id="search" for="search" placeholder="Search your product">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        </form>
+        <span class="signin">
+            <a  class="link" href="login page.html"><p>Sign in<br>Account and List</p></a>
+            </span>
+          
+        <div class="orders">
+            <!--modal button-->
+           <p type="button" type="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal1">order and <br> return</p>
+
+            <!--modal-->
+            <div class="modal fade" id="modal1">
+               <div class="modal-dialogue">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                    <h4 class="modal-title" id="poducts1">your ordered product</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+            
+                 </div>
+                <div class="modal-body">
+                    <div>
+                    <p><a href="cart.html">Move to cart to see your orders</a></p>
+                    </div>
+                    <hr/>
+                    <div>
+                    <p><a href="#">cancel your order</a></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="collect">
+            <a href="cart.html"><i class="fas fa-shopping-cart">Cart</i></a>
+        </div>
+        </div>
+        <div class="container">
+
+            <br>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!--carousel indicator-->
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="actve"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ol>
+
+            <!--wrapper for slides-->
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="https://cdn.shopclues.com/images1/thumbnails/91266/320/320/140331852-91266140-1534494280.jpg" width="450" height="340">
+                    <div class="carousel-caption">
+                        <h2>Pack of 3 shirt</h2>
+                        
+                        <p class="text">$200</p> 
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://5.imimg.com/data5/MG/NW/MY-30183351/girls-denim-jacket-500x500.jpg" width="450" height="340">
+                    <div class="carousel-caption">
+                        <h2>Girls-jacket</h2>
+                        <p class="text"> $100</p> 
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://5.imimg.com/data5/RQ/KK/MY-45404914/b-80-ls-wtgd2-250x250.jpg" width="450" height="340">
+                    <div class="carousel-caption">
+                        <h2>white sneakers for girls</h2>
+                        <p class="text">$210</p> 
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://media.wired.com/photos/5d82a38ecf348c00080e505a/1:1/w_2400,c_limit/Gear-Veja_Running-LEAD.jpg" width="450" height="340">
+                    <div class="carousel-caption">
+                        <h2>Men's running shoes</h2>
+                        <p class="text">$120</p> 
+                    </div>
+                </div>
+
+            <!--left and right control links-->
+            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+                </span>
+            </a>
+            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+        <div class="container">
+            <h2 style="text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Products</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://image.skechers.com/img/productimages/xlarge/232040_WNV.jpg" height="350%" width="175%" alt="shoes">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="quick shop"><i class="fa fa-eye"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart"><i class="fa fa-shopping-cart"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h4>Sports shoes</h4>
+                    <h5>$200.00</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/71vKyimxsiL._UX342_.jpg" height="325%" width="160%" alt="shoes">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="quick shop"><i class="fa fa-eye"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart"><i class="fa fa-shopping-cart"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h4>watch</h4>
+                    <h5>$300.00</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.mydesignation.com/wp-content/uploads/2019/09/pling-tshirt-funny-malayalam-pop-art-image-.jpg" height="250%" width="125%" alt="shoes">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="quick shop"><i class="fa fa-eye"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart"><i class="fa fa-shopping-cart"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h4>T-shirt</h4>
+                    <h5>$250.00</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://i.pinimg.com/originals/a1/06/35/a10635c3599b1a1968533b8720dbcdfe.jpg" height="220%" width="110%" alt="shoes">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="quick shop"><i class="fa fa-eye"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart"><i class="fa fa-shopping-cart"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h4>Top</h4>
+                    <h5>$270.00</h5>
+                    </div>
+                </div>         
+            </div>
+        </div>
+        <div id="aboutus">
+            <span id="head"><a href ="mainpage.html">Compras in</a></span> is an initiative to make to everything available to everyone in reasonable time and price.We aim to strive to entend our boundries to everyone.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam labore officiis molestiae obcaecati nobis quibusdam esse. Voluptatem ab voluptates exercitationem, odio alias nisi eos reiciendis aperiam enim expedita quis?<br/>
+            At Compras we are honoured to welcome you and help to get you your goods of everyday with great offers and goodies.
+        </div>
+        <footer id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Road No-12,<br>Hari Nagar<br> Near Pacific Mall-110031
+                <br/><br/>
+                <i class="fa fa-phone" >  999998854 </i> <br/>
+                <i class="fab fa-facebook-f"> compras.in</i><br/>
+                <i class="fab fa-instagram" >  @compras.in</i><br/>
+                <i class="fab fa-twitter"> @compas</i>
+               
+            </p>
+            <div id="l">
+                <img src="logo.ico.jpg" height="60%" width="25%">
+            </div>
+        </footer>        
+        
+        
+    </body>
+</html>
